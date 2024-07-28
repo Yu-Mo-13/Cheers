@@ -4,6 +4,12 @@ const X_INFO = {
 
 // ChatGPT(OpenAI)のAPI認証情報
 const GPT_INFO = {
+  endpoint_url: 'https://api.openai.com/v1/chat/completions',
+  model_name: 'gpt-4o-mini',
+  max_tokens: 2048,
+  // 生成する文章のランダム性(完全にランダムにする)
+  temperature: 1.6,
+  api_key: ''
 }
 
 function main() {
